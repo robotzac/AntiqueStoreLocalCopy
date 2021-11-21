@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Delete Inventory</title>
+
+    --Nav bar
+    <nav class="navbar navbar-light bg-light">
+        <form class="container-fluid justify-content-start">
+            <button class="btn btn-outline-success me-2" type="button">Home</button>
+            <button class="btn btn-outline-success me-2" type="button">Products</button>
+            <button class="btn btn-outline-success me-2" type="button">Orders</button>
+            <button class="btn btn-outline-success me-2" type="button">Reports</button>
+        </form>
+    </nav>
+</head>
+<body>
+
+--Inventory drop down
+
+<select class="form-select" aria-label="Default select example">
+    <option selected>Select Inventory to delete</option>
+    <option value="1">One</option>
+    <option value="2">Two</option>
+    <option value="3">Three</option>
+</select>
+
+--Selection Confirmation / cancel buttons
+<div class="btn-group" role="group" aria-label="Basic mixed styles example">
+    <button type="button" class="btn btn-danger">Delete Selection</button>
+    <button type="button" class="btn btn-success">Home</button>
+</div>
+
+
+--Delete confirmation
+
+<div class="alert alert-danger" role="alert">
+    Record deleted succesfully.
+</div>
+
+</body>
+</html>
